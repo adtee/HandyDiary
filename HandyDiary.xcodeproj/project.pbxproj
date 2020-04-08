@@ -10,12 +10,13 @@
 		E0A5DAA5243D134F00C06EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAA4243D134F00C06EB9 /* AppDelegate.swift */; };
 		E0A5DAA7243D134F00C06EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAA6243D134F00C06EB9 /* SceneDelegate.swift */; };
 		E0A5DAAA243D134F00C06EB9 /* HandyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAA8243D134F00C06EB9 /* HandyDiary.xcdatamodeld */; };
-		E0A5DAAC243D134F00C06EB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAAB243D134F00C06EB9 /* ContentView.swift */; };
 		E0A5DAAE243D135000C06EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A5DAAD243D135000C06EB9 /* Assets.xcassets */; };
 		E0A5DAB1243D135000C06EB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A5DAB0243D135000C06EB9 /* Preview Assets.xcassets */; };
 		E0A5DAB4243D135000C06EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A5DAB2243D135000C06EB9 /* LaunchScreen.storyboard */; };
 		E0A5DABF243D135000C06EB9 /* HandyDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DABE243D135000C06EB9 /* HandyDiaryTests.swift */; };
 		E0A5DACA243D135000C06EB9 /* HandyDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAC9243D135000C06EB9 /* HandyDiaryUITests.swift */; };
+		E0A5DADA243D19DD00C06EB9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAD9243D19DD00C06EB9 /* SplashScreen.swift */; };
+		E0F990B2243E66910071B457 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F990B1243E66910071B457 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		E0A5DAA4243D134F00C06EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A5DAA6243D134F00C06EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E0A5DAA9243D134F00C06EB9 /* HandyDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandyDiary.xcdatamodel; sourceTree = "<group>"; };
-		E0A5DAAB243D134F00C06EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E0A5DAAD243D135000C06EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A5DAB0243D135000C06EB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E0A5DAB3243D135000C06EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		E0A5DAC5243D135000C06EB9 /* HandyDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A5DAC9243D135000C06EB9 /* HandyDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyDiaryUITests.swift; sourceTree = "<group>"; };
 		E0A5DACB243D135000C06EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A5DAD9243D19DD00C06EB9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E0F990B1243E66910071B457 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +103,10 @@
 		E0A5DAA3243D134F00C06EB9 /* HandyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				E0A5DAD8243D19C000C06EB9 /* Home */,
+				E0A5DAD7243D19A500C06EB9 /* SplashScreen */,
 				E0A5DAA4243D134F00C06EB9 /* AppDelegate.swift */,
 				E0A5DAA6243D134F00C06EB9 /* SceneDelegate.swift */,
-				E0A5DAAB243D134F00C06EB9 /* ContentView.swift */,
 				E0A5DAAD243D135000C06EB9 /* Assets.xcassets */,
 				E0A5DAB2243D135000C06EB9 /* LaunchScreen.storyboard */,
 				E0A5DAB5243D135000C06EB9 /* Info.plist */,
@@ -137,6 +140,22 @@
 				E0A5DACB243D135000C06EB9 /* Info.plist */,
 			);
 			path = HandyDiaryUITests;
+			sourceTree = "<group>";
+		};
+		E0A5DAD7243D19A500C06EB9 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E0A5DAD9243D19DD00C06EB9 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		E0A5DAD8243D19C000C06EB9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E0F990B1243E66910071B457 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A5DADA243D19DD00C06EB9 /* SplashScreen.swift in Sources */,
 				E0A5DAAA243D134F00C06EB9 /* HandyDiary.xcdatamodeld in Sources */,
 				E0A5DAA5243D134F00C06EB9 /* AppDelegate.swift in Sources */,
-				E0A5DAAC243D134F00C06EB9 /* ContentView.swift in Sources */,
+				E0F990B2243E66910071B457 /* HomeView.swift in Sources */,
 				E0A5DAA7243D134F00C06EB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
