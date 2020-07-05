@@ -48,7 +48,7 @@ struct SplashScreen: View {
         
             DrawLine(lineLength: 150)
                 .stroke(Color.white.opacity(0.9), lineWidth: 3)
-            .animation(.easeInOut(duration: 3))
+                .animation(.easeOut(duration: 3))
             
           
         }
@@ -80,11 +80,11 @@ struct DrawLine : Shape {
         let centerPoint = CGPoint(x: (rect.size.width / 2.0) - 60, y: (rect.size.height / 2.0) + 25)
         
                let endPoint = CGPoint(x: centerPoint.x  + lineLength, y: centerPoint.y)
-               
-               path.move(to: centerPoint)
-                   
-               path.addLine(to: endPoint)
-               
+       
+            path.move(to: centerPoint)
+                
+            path.addLine(to: endPoint)
+       
                path.closeSubpath()
                       
                return path

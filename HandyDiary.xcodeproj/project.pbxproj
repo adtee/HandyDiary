@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E07F3ADA24B293B70015562C /* DiaryNotes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F3AD824B293B70015562C /* DiaryNotes+CoreDataClass.swift */; };
+		E07F3ADB24B293B70015562C /* DiaryNotes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07F3AD924B293B70015562C /* DiaryNotes+CoreDataProperties.swift */; };
 		E0A5DAA5243D134F00C06EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAA4243D134F00C06EB9 /* AppDelegate.swift */; };
 		E0A5DAA7243D134F00C06EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAA6243D134F00C06EB9 /* SceneDelegate.swift */; };
 		E0A5DAAA243D134F00C06EB9 /* HandyDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAA8243D134F00C06EB9 /* HandyDiary.xcdatamodeld */; };
@@ -16,6 +18,10 @@
 		E0A5DABF243D135000C06EB9 /* HandyDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DABE243D135000C06EB9 /* HandyDiaryTests.swift */; };
 		E0A5DACA243D135000C06EB9 /* HandyDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAC9243D135000C06EB9 /* HandyDiaryUITests.swift */; };
 		E0A5DADA243D19DD00C06EB9 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DAD9243D19DD00C06EB9 /* SplashScreen.swift */; };
+		E0C1D35D2444EFD8008C8893 /* DatabaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C1D35C2444EFD8008C8893 /* DatabaseModels.swift */; };
+		E0C1D3602444F0D8008C8893 /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C1D35F2444F0D8008C8893 /* ExtensionString.swift */; };
+		E0C1D3662444F478008C8893 /* ExtnesionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C1D3652444F478008C8893 /* ExtnesionDate.swift */; };
+		E0C1D36C2444F7DA008C8893 /* codeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C1D36B2444F7DA008C8893 /* codeDataManager.swift */; };
 		E0F990B2243E66910071B457 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F990B1243E66910071B457 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E07F3AD824B293B70015562C /* DiaryNotes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryNotes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E07F3AD924B293B70015562C /* DiaryNotes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DiaryNotes+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E0A5DAA1243D134F00C06EB9 /* HandyDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandyDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A5DAA4243D134F00C06EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0A5DAA6243D134F00C06EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +60,10 @@
 		E0A5DAC9243D135000C06EB9 /* HandyDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyDiaryUITests.swift; sourceTree = "<group>"; };
 		E0A5DACB243D135000C06EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0A5DAD9243D19DD00C06EB9 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		E0C1D35C2444EFD8008C8893 /* DatabaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseModels.swift; sourceTree = "<group>"; };
+		E0C1D35F2444F0D8008C8893 /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		E0C1D3652444F478008C8893 /* ExtnesionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtnesionDate.swift; sourceTree = "<group>"; };
+		E0C1D36B2444F7DA008C8893 /* codeDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeDataManager.swift; sourceTree = "<group>"; };
 		E0F990B1243E66910071B457 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +115,8 @@
 		E0A5DAA3243D134F00C06EB9 /* HandyDiary */ = {
 			isa = PBXGroup;
 			children = (
+				E0C1D35E2444F0C5008C8893 /* Extension */,
+				E0C1D3572444EF6B008C8893 /* CoreDataManager */,
 				E0A5DAD8243D19C000C06EB9 /* Home */,
 				E0A5DAD7243D19A500C06EB9 /* SplashScreen */,
 				E0A5DAA4243D134F00C06EB9 /* AppDelegate.swift */,
@@ -156,6 +170,26 @@
 				E0F990B1243E66910071B457 /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		E0C1D3572444EF6B008C8893 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				E07F3AD824B293B70015562C /* DiaryNotes+CoreDataClass.swift */,
+				E07F3AD924B293B70015562C /* DiaryNotes+CoreDataProperties.swift */,
+				E0C1D35C2444EFD8008C8893 /* DatabaseModels.swift */,
+				E0C1D36B2444F7DA008C8893 /* codeDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		E0C1D35E2444F0C5008C8893 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0C1D35F2444F0D8008C8893 /* ExtensionString.swift */,
+				E0C1D3652444F478008C8893 /* ExtnesionDate.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,10 +323,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C1D35D2444EFD8008C8893 /* DatabaseModels.swift in Sources */,
+				E0C1D3662444F478008C8893 /* ExtnesionDate.swift in Sources */,
 				E0A5DADA243D19DD00C06EB9 /* SplashScreen.swift in Sources */,
 				E0A5DAAA243D134F00C06EB9 /* HandyDiary.xcdatamodeld in Sources */,
+				E0C1D36C2444F7DA008C8893 /* codeDataManager.swift in Sources */,
+				E07F3ADA24B293B70015562C /* DiaryNotes+CoreDataClass.swift in Sources */,
 				E0A5DAA5243D134F00C06EB9 /* AppDelegate.swift in Sources */,
+				E0C1D3602444F0D8008C8893 /* ExtensionString.swift in Sources */,
 				E0F990B2243E66910071B457 /* HomeView.swift in Sources */,
+				E07F3ADB24B293B70015562C /* DiaryNotes+CoreDataProperties.swift in Sources */,
 				E0A5DAA7243D134F00C06EB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
